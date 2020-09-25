@@ -19,6 +19,7 @@ import { SalaryComponent } from 'app/salary/salary.component';
 import { AdjustmentsComponent } from 'app/adjustments/adjustments.component';
 import { PettycashComponent } from 'app/pettycash/pettycash.component';
 import { DocumentsComponent } from 'app/documents/documents.component';
+import { AddCustomerComponent } from 'app/add-customer/add-customer.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'product',      component: ProductsComponent },
@@ -32,5 +33,5 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'adjustments',           component: AdjustmentsComponent },
     { path: 'pettycash',  component: PettycashComponent },
     { path: 'documents',  component: DocumentsComponent },
-    
+    { path: 'add-customer',  component: AddCustomerComponent },
 ];

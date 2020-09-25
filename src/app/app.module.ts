@@ -24,6 +24,7 @@ import { ProductsComponent } from './products/products.component';
 import { PettycashComponent } from './pettycash/pettycash.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { WarehouseComponent } from './warehouse/warehouse.component';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { WarehouseComponent } from './warehouse/warehouse.component';
     ProductsComponent,
     PettycashComponent,
     EmployeeComponent,
-    WarehouseComponent
+    WarehouseComponent,
+    AddCustomerComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
