@@ -35,7 +35,7 @@ export class CustomerComponent implements OnInit {
           ['6', 'Nethmi','123,Malabe','0711087967','K@a.com']
       ]
   };
-    
+
   }
 
 }
