@@ -24,6 +24,11 @@ import { ProductsComponent } from './products/products.component';
 import { PettycashComponent } from './pettycash/pettycash.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { WarehouseComponent } from './warehouse/warehouse.component';
+<<<<<<< Updated upstream
+=======
+import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { MatDialogModule } from '@angular/material/dialog';
+>>>>>>> Stashed changes
 
 @NgModule({
   imports: [
@@ -34,6 +39,7 @@ import { WarehouseComponent } from './warehouse/warehouse.component';
     NavbarModule,
     FooterModule,
     SidebarModule,
+    MatDialogModule,
     AppRoutingModule
   ],
   declarations: [

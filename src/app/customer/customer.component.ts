@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { AddCustomerComponent } from 'app/add-customer/add-customer.component';
+
 declare interface TableData {
   headerRow: string[];
   dataRows: string[][];
@@ -10,8 +13,17 @@ declare interface TableData {
   styleUrls: ['./customer.component.css']
 })
 export class CustomerComponent implements OnInit {
+
   public tableData1: TableData;
-  constructor() { }
+  constructor( public dialog: MatDialog) { }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(AddCustomerComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 
   ngOnInit(): void {
     this.tableData1 = {
@@ -29,3 +41,10 @@ export class CustomerComponent implements OnInit {
   }
 
 }
+
+
+@Component({
+  selector: 'dialog-elements-example-dialog',
+  templateUrl: 'dialog-elements-example-dialog.html',
+})
+export class DialogElementsExampleDialog {}
