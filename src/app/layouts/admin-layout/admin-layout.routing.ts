@@ -20,11 +20,13 @@ import { AdjustmentsComponent } from 'app/adjustments/adjustments.component';
 import { PettycashComponent } from 'app/pettycash/pettycash.component';
 import { DocumentsComponent } from 'app/documents/documents.component';
 import { AddCustomerComponent } from 'app/add-customer/add-customer.component';
+import { ProvidersComponent } from 'app/providers/providers.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'product',      component: ProductsComponent },
     { path: 'order',      component: OrderComponent },
     { path: 'delivery',      component: DeliveryComponent },
+    { path: 'providers',      component: ProvidersComponent },
     { path: 'warehouse',      component: WarehouseComponent },
     { path: 'employee',           component: EmployeeComponent },
     { path: 'customer',          component: CustomerComponent },
