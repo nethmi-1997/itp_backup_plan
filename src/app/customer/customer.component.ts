@@ -25,7 +25,7 @@ export class CustomerComponent implements OnInit {
           ['6', 'Mason Porter', 'Chile', 'Gloucester', '$78,615']
       ]
   };
-    
+
   }
 
 }
