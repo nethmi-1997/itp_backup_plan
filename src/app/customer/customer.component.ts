@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MatDialog} from '@angular/material/dialog';
-import { AddCustomerComponent } from 'app/add-customer/add-customer.component';
+
 
 declare interface TableData {
   headerRow: string[];
@@ -17,13 +17,7 @@ export class CustomerComponent implements OnInit {
   public tableData1: TableData;
   constructor( public dialog: MatDialog) { }
 
-  openDialog() {
-    const dialogRef = this.dialog.open(AddCustomerComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
+  
 
   ngOnInit(): void {
     this.tableData1 = {
