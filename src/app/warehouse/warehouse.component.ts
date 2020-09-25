@@ -14,13 +14,13 @@ export class WarehouseComponent implements OnInit {
 
   ngOnInit(): void {
     this.tableData1 = {
-      headerRow: [ 'ID', 'Name','Quantity','price','location','weight' ],
+      headerRow: [ 'ID', 'Name','Address' ],
       dataRows: [
-          ['1', 'ABC','900','2000','Area1','1000'],
-          ['2', 'ABC','900','2000','Area1','1000'],
-          ['3', 'ABC','900','2000','Area1','1000'],
-          ['4', 'ABC','900','2000','Area1','1000'],
-          ['6', 'ABC','900','2000','Area1','1000']
+          ['1', 'Area1','10,Malabe'],
+          ['2', 'Area1','10,Malabe'],
+          ['3', 'Area1','10,Malabe'],
+          ['4', 'Area1','10,Malabe'],
+          ['6', 'Area1','10,Malabe']
       ]
   };
   }
