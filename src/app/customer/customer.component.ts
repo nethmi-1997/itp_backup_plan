@@ -25,14 +25,14 @@ export class CustomerComponent implements OnInit {
 
   ngOnInit(): void {
     this.tableData1 = {
-      headerRow: [ 'ID', 'Name', 'Country', 'City', 'Salary'],
+      headerRow: [ 'ID', 'Name','Address', 'Phone-Number', 'email', ],
       dataRows: [
-          ['1', 'Dakota Rice', 'Niger', 'Oud-Turnhout', '$36,738'],
-          ['2', 'Minerva Hooper', 'Curaçao', 'Sinaai-Waas', '$23,789'],
-          ['3', 'Sage Rodriguez', 'Netherlands', 'Baileux', '$56,142'],
-          ['4', 'Philip Chaney', 'Korea, South', 'Overland Park', '$38,735'],
-          ['5', 'Doris Greene', 'Malawi', 'Feldkirchen in Kärnten', '$63,542'],
-          ['6', 'Mason Porter', 'Chile', 'Gloucester', '$78,615']
+          ['1', 'Nethmi','123,Malabe','0711087967','A@a.com'],
+          ['2', 'Kalpa','sd,Malabe','0711087967','B@a.com'],
+          ['3', 'yasir','34,Malabe','0711087967','C@a.com'],
+          ['4', 'Harshi','123,Malabe','0711187967','D@a.com'],
+          ['5', 'Kushi','45,Malabe','07115767967','H@a.com'],
+          ['6', 'Nethmi','123,Malabe','0711087967','K@a.com']
       ]
   };
     
