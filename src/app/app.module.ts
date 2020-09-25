@@ -3,14 +3,11 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-
 import { AppRoutingModule } from './app.routing';
 import { NavbarModule } from './shared/navbar/navbar.module';
 import { FooterModule } from './shared/footer/footer.module';
 import { SidebarModule } from './sidebar/sidebar.module';
-
 import { AppComponent } from './app.component';
-
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { CustomerComponent } from './customer/customer.component';
 import { DeliveryComponent } from './delivery/delivery.component';
@@ -25,6 +22,7 @@ import { PettycashComponent } from './pettycash/pettycash.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { WarehouseComponent } from './warehouse/warehouse.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { AddDeliveryComponent } from './add-delivery/add-delivery.component';
 
 @NgModule({
   imports: [
@@ -52,7 +50,8 @@ import { AddCustomerComponent } from './add-customer/add-customer.component';
     PettycashComponent,
     EmployeeComponent,
     WarehouseComponent,
-    AddCustomerComponent
+    AddCustomerComponent,
+    AddDeliveryComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
