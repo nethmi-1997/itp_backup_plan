@@ -8,17 +8,17 @@ declare interface RouteInfo {
     class: string;
 }
 export const ROUTES: RouteInfo[] = [
-    { path: '/product', title: 'Product',  icon: 'pe-7s-graph', class: '' },
-    { path: '/order', title: 'Order',  icon:'pe-7s-note2', class: '' },
-    { path: '/delivery', title: 'Delivery',  icon:'pe-7s-news-paper', class: '' },
-    { path: '/warehouse', title: 'Warehouse',  icon:'pe-7s-science', class: '' },
-    { path: '/employee', title: 'Employee',  icon:'pe-7s-map-marker', class: '' },
+    { path: '/product', title: 'Product',  icon: 'fa fa-th-large', class: '' },
+    { path: '/order', title: 'Order',  icon:'fa fa-archive', class: '' },
+    { path: '/delivery', title: 'Delivery',  icon:'fa fa-plane', class: '' },
+    { path: '/warehouse', title: 'Warehouse',  icon:'fa fa-industry', class: '' },
+    { path: '/employee', title: 'Employee',  icon:'fa fa-users', class: '' },
     { path: '/customer', title: 'Customer',  icon:'fa fa-user', class: '' },
-    { path: '/attendance', title: 'Attendance',  icon:'pe-7s-bell', class: '' },
-    { path: '/salary', title: 'Salary',  icon:'fa fa-user', class: '' },
-    { path: '/adjustments', title: 'Adjustments',  icon:'fa fa-user', class: '' },
-    { path: '/pettycash', title: 'Petty Cash',  icon:'fa fa-user', class: '' },
-    { path: '/documents', title: 'ISO documents',  icon:'pe-7s-user', class: '' },
+    { path: '/attendance', title: 'Attendance',  icon:'fa fa-book', class: '' },
+    { path: '/salary', title: 'Salary',  icon:'fa fa-money', class: '' },
+    { path: '/adjustments', title: 'Adjustments',  icon:'fa fa-check-square-o', class: '' },
+    { path: '/pettycash', title: 'Petty Cash',  icon:'fa fa-credit-card-alt', class: '' },
+    { path: '/documents', title: 'ISO documents',  icon:'fa fa-file-text', class: '' },
 ];
 
 @Component({

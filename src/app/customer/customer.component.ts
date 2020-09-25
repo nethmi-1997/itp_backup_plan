@@ -3,7 +3,17 @@ declare interface TableData {
   headerRow: string[];
   dataRows: string[][];
 }
+declare interface RouteInfo {
+  path: string;
+  title: string;
+  icon: string;
+  class: string;
+}
 
+export const ROUTES: RouteInfo[] = [
+ 
+  { path: '/add-customer', title: 'Add Customer',  icon:'fa fa-file-text', class: '' },
+];
 @Component({
   selector: 'app-customer',
   templateUrl: './customer.component.html',
